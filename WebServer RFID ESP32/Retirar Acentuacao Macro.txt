@@ -1,0 +1,22 @@
+Function Acento(caract)
+'Publicada em www.douglasgodoy.com.br
+'Conheça meu canal no youtube.'
+'https://www.youtube.com/c/douglasgodoybr?sub_confirmation=1
+'Acentos e caracteres especiais que serão buscados no texto digitado
+'Você pode definir outros caracteres nessa variável, mas
+' precisará também colocar a letra correspondente em codiB
+codiA = "àáâãäèéêëìíîïòóôõöùúûüÀÁÂÃÄÈÉÊËÌÍÎÒÓÔÕÖÙÚÛÜçÇñÑ"
+'Letras correspondentes para substituição
+codiB = "aaaaaeeeeiiiiooooouuuuAAAAAEEEEIIIOOOOOUUUUcCnN"
+'Armazena em temp a string recebida
+temp = caract
+'Loop que percorerá a palavra letra a letra
+For i = 1 To Len(temp)
+'InStr buscará se a letra pertence ao grupo com acentos e se existir retornará a posição dela
+p = InStr(codiA, Mid(temp, i, 1))
+'Substitui a letra de indice i em codiA pela sua correspondente em codiB
+If p > 0 Then Mid(temp, i, 1) = Mid(codiB, p, 1)
+Next
+'Retorna o texto sem o acento ou caractere especial
+Acento = temp
+End Function
