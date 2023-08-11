@@ -1,6 +1,9 @@
 # 📽 VIDEO DO PROJETO FUNCIONAL: 
 ## https://www.youtube.com/watch?v=cUS2qG1Hij0
 
+# 📌 APRESENTAÇÃO DO PROJETO: 
+## https://1drv.ms/p/s!Any6sALsgLF-ga4U7GmGZiB_p0NWhQ?e=S6y0qW
+
 # 💻 Sistema de Gerenciamento e Inventário de Estoque RFID
 
 ## 🏹 Como funciona?
